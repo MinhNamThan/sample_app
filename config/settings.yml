@@ -1,0 +1,9 @@
+footer:
+  rails_link: "https://www.railstutorial.org/"
+  rails_name: "https://www.michaelhartl.com/"
+  rails_news: "https://news.railstutorial.org/"
+contact:
+  rails_contact: "https://www.railstutorial.org/contact"
+help:
+  rails_help: "https://www.railstutorial.org/help"
+  rails_book: "https://www.railstutorial.org/book"
