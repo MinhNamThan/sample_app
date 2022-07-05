@@ -1,9 +1,20 @@
+user:
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  email:
+    email_range_length: !ruby/range 20..255
+  name:
+    name_max_length: 10
+  password:
+    password_min_length: 6
+
 footer:
   rails_link: "https://www.railstutorial.org/"
   rails_name: "https://www.michaelhartl.com/"
   rails_news: "https://news.railstutorial.org/"
+
 contact:
   rails_contact: "https://www.railstutorial.org/contact"
+
 help:
   rails_help: "https://www.railstutorial.org/help"
   rails_book: "https://www.railstutorial.org/book"
