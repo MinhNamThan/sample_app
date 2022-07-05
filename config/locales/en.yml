@@ -1,33 +1,43 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  page_title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    about:
+      about: "About"
+    contact:
+      title: "Contact"
+      contact_first: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+    help:
+      help: "Help"
+      help_first: "Get help on the Ruby on Rails Tutorial at the"
+      help_page: "Rails Tutorial help page"
+      help_to: "To get help on this sample app, see the"
+      tutorial: "Ruby on Rails Tutorial"
+      book: " book"
+    home:
+      title: "Home"
+      home: "Welcome to the Sample App"
+      home_first: "This is the homepage for the"
+      tutorial: "Ruby on Rails Tutorial"
+      home_sample: "sample application."
+      sign_up: "Sign up now!"
+  layouts:
+    footer:
+      tutorial: "Ruby on Rails Tutorial"
+      name: "Michael Hartl"
+      news: "News"
+      about: "About"
+      contact: "Contact"
+      the: "The"
+      by: "by"
+    header:
+      eng: "English"
+      viet: "Vietnamese"
+      app: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+  users:
+    new:
+      sign_up: "Sign up"
+      first_sign_up: "This will be a signup page for new users."

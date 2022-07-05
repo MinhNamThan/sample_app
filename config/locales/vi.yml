@@ -1,0 +1,43 @@
+vi:
+  page_title: "Hướng dẫn Sample App Ruby on Rails"
+  static_pages:
+    about:
+      about: "Về chúng tôi"
+    contact:
+      title: "Kết nối"
+      contact_first: "Liên hệ với Hướng dẫn Ruby on Rails về Sample App tại"
+      contact_page: "Trang liên lạc"
+    help:
+      help: "Trợ giúp"
+      help_first: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      help_page: "Trang trợ giúp Hướng dẫn về Rails"
+      help_to: "Để nhận trợ giúp về Sample App này, hãy xem"
+      tutorial: "Hướng dẫn sử dụng Ruby on Rails"
+      book: " sách"
+    home:
+      title: "Trang chủ"
+      home: "Chào mừng bạn đến với Sample App"
+      home_first: "Đây là trang chủ cho"
+      tutorial: "Hướng dẫn sử dụng Ruby on Rails"
+      home_sample: "Sample App."
+      sign_up: "Đăng ký ngay!"
+  layouts:
+    footer:
+      tutorial: "Hướng dẫn sử dụng Ruby on Rails"
+      name: "Michael Hartl"
+      news: "Tin tức"
+      about: "Về chúng tôi"
+      contact: "Kết nối"
+      the: ""
+      by: "bởi"
+    header:
+      eng: "Tiếng Anh"
+      viet: "Tiếng Việt"
+      app: "sample app"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+  users:
+    new:
+      sign_up: "Đăng ký"
+      first_sign_up: "Đây là trang đăng ký cho người dùng mới."
