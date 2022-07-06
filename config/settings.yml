@@ -3,7 +3,7 @@ user:
   email:
     email_range_length: !ruby/range 20..255
   name:
-    name_max_length: 10
+    name_max_length: 30
   password:
     password_min_length: 6
 

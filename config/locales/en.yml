@@ -39,5 +39,17 @@ en:
       login: "Log in"
   users:
     new:
-      sign_up: "Sign up"
-      first_sign_up: "This will be a signup page for new users."
+      title: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      btn_create: "Create my account"
+    create:
+      welcome_to: "Welcome to the Sample App!"
+      danger: "False to create"
+    show:
+      not_found: "Not found user"
+  shared:
+    error_messages:
+      the: "The form contains "

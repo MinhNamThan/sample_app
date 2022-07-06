@@ -39,5 +39,17 @@ vi:
       login: "Đăng nhập"
   users:
     new:
-      sign_up: "Đăng ký"
-      first_sign_up: "Đây là trang đăng ký cho người dùng mới."
+      title: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      btn_create: "Tạo tài khoản"
+    create:
+      welcome_to: "Chào mừng đến Sample App!"
+      danger: "Không thể tạo tài khoản"
+    show:
+      not_found: "Không có ngừoi dùng khả dụng"
+  shared:
+    error_messages:
+      the: "Biểu mẫu chứa "
