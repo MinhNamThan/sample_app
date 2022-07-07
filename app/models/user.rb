@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  USER_ATTRS = %w(name email password password_confirmation).freeze
   before_save :downcase_email
 
   validates :name, presence: true,
