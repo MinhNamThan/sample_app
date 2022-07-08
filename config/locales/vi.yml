@@ -55,6 +55,26 @@ vi:
       danger: "Không thể tạo tài khoản"
     show:
       not_found: "Không có ngừoi dùng khả dụng"
+    index:
+      title: "Danh sách người dùng"
+      loggin_please: "Hãy đăng nhập"
+      not_found_before: "Không tìm thấy người dùng"
+    edit:
+      title: "Thay đổi thông tin"
+      save_btn: "Lưu thay đổi"
+      update: "Thay đổi thông tin cá nhân"
+    user:
+      delete: "Xóa"
+      sure: "Bạn có chắc không?"
+    update:
+      update_flash: "Đã cập nhật thông tin"
+      update_fail: "Không thành công"
+    destroy:
+      destroy_flash: "Đã xóa người dùng"
+      destroy_fail: "Xóa không thành công"
+    before_action:
+      not_correct: "Người dùng không đúng"
+      not_admin: "Bạn không phải là admin"
   shared:
     error_messages:
       the: "Biểu mẫu chứa "

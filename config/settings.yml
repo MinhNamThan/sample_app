@@ -18,3 +18,14 @@ contact:
 help:
   rails_help: "https://www.railstutorial.org/help"
   rails_book: "https://www.railstutorial.org/book"
+
+helpers:
+  users:
+    size: 80
+
+views:
+  users:
+    user:
+      gavatar_size: 100
+    edit:
+      gavatar_link: https://gravatar.com/emails
