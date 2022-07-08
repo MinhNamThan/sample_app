@@ -37,6 +37,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      logout: "Đăng xuất"
+      user: "Người dùng"
+      acc: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
   users:
     new:
       title: "Đăng ký"
@@ -53,3 +58,10 @@ vi:
   shared:
     error_messages:
       the: "Biểu mẫu chứa "
+  sessions:
+    new:
+      login: "Đăng nhập"
+      new: "Chưa có tài khoản?"
+      signup: "Đăng ký ngay!"
+    create:
+      danger: "Tài khoản, mật khẩu không hợp lệ"

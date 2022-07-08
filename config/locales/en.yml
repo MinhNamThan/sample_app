@@ -37,6 +37,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      logout: "Log out"
+      user: "Users"
+      acc: "Account"
+      profile: "Profile"
+      setting: "Setting"
   users:
     new:
       title: "Sign up"
@@ -53,3 +58,10 @@ en:
   shared:
     error_messages:
       the: "The form contains "
+  sessions:
+    new:
+      login: "Log in"
+      new: "New User?"
+      signup: "Sign Up Now!"
+    create:
+      danger: "invalid email password combination"
