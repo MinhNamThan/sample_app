@@ -6,6 +6,8 @@ user:
     name_max_length: 30
   password:
     password_min_length: 6
+  password_reset_expired:
+    time: 2
 
 footer:
   rails_link: "https://www.railstutorial.org/"
