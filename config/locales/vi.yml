@@ -63,5 +63,6 @@ vi:
       login: "Đăng nhập"
       new: "Chưa có tài khoản?"
       signup: "Đăng ký ngay!"
+      remember: "Ghi nhớ"
     create:
       danger: "Tài khoản, mật khẩu không hợp lệ"

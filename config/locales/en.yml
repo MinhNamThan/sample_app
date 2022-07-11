@@ -63,5 +63,6 @@ en:
       login: "Log in"
       new: "New User?"
       signup: "Sign Up Now!"
+      remember: "Remember me on this computer"
     create:
       danger: "invalid email password combination"
