@@ -55,6 +55,26 @@ en:
       danger: "False to create"
     show:
       not_found: "Not found user"
+    index:
+      title: "All Users"
+      loggin_please: "Please log in."
+      not_found_before: "Not Found"
+    edit:
+      title: "Edit User"
+      save_btn: "Save Change"
+      update: "Update your profile"
+    user:
+      delete: "delete"
+      sure: "Are sure?"
+    update:
+      update_flash: "Profile updated"
+      update_fail: "Update fail"
+    destroy:
+      destroy_flash: "User deleted"
+      destroy_fail: "Destroy fail"
+    before_action:
+      not_correct: "Not correct user"
+      not_admin: "You don't have Authorization"
   shared:
     error_messages:
       the: "The form contains "
