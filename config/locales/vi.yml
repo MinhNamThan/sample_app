@@ -85,12 +85,14 @@ vi:
       new: "Chưa có tài khoản?"
       signup: "Đăng ký ngay!"
       remember: "Ghi nhớ"
+      forgot: "Quên mật khẩu"
     create:
       invalid: "Email/mật khẩu không hợp lệ"
       account_not: "Tài khoản chưa được kích hoạt. Truy cập email để kích hoạt"
   account_activations:
     edit:
       invalid_activation: "Liên kết kích hoạt không hợp lệ"
+      account_activated: "Kích hoạt tài khoản thành công!"
   user_mailer:
     account_activation:
       sample_app: "Sample App"
@@ -98,3 +100,27 @@ vi:
       activate: "Kích hoạt"
       account: "Kích hoạt tài khoản"
       hi: "Xin chào"
+    password_reset:
+      subject: "Lấy lại mật khẩu"
+      to_reset: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      reset_password: "Đặt lại mật khẩu"
+      this_link: "Liên kết này sẽ hết hạn sau hai giờ."
+      if_you_did: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và
+mật khẩu của bạn sẽ vẫn như cũ."
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      btn_submit: "Gửi"
+    edit:
+      title: "Lấy lại mật khẩu"
+      confirm: "xác nhận mật khẩu"
+      up_btn: "Cập nhật mật khẩu mới"
+    create:
+      not_found_email: "Không tìm thấy địa chỉ email"
+      send_email: "Truy cập vào email để đổi mật khẩu"
+    update:
+      empty: "không thể bỏ trống"
+      success: "Cập nhật mật khẩu thành công"
+      flash_update_fail: "Cập nhật không thành công"
+    check_expiration:
+      danger: "Đã hết hạn thay đổi mật khẩu"
