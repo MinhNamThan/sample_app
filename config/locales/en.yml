@@ -53,6 +53,7 @@ en:
     create:
       welcome_to: "Welcome to the Sample App!"
       danger: "False to create"
+      check_email: "Please check your email to activate your account."
     show:
       not_found: "Not found user"
     index:
@@ -86,3 +87,15 @@ en:
       remember: "Remember me on this computer"
     create:
       danger: "invalid email password combination"
+      account_not: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      sample_app: "Sample App"
+      welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      account: "Account activation"
+      hi: "Hi"
