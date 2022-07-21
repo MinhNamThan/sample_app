@@ -23,7 +23,7 @@ help:
 
 helpers:
   users:
-    size: 80
+    size: 50
 
 views:
   users:
@@ -31,3 +31,11 @@ views:
       gavatar_size: 100
     edit:
       gavatar_link: https://gravatar.com/emails
+
+micropost:
+  content:
+    content_max_length: 140
+  image_path: ["image/jpeg", "image/gif", "image/png"]
+  image_size: 5
+  resize_to_limit: [500, 500]
+  image_accept: "image/jpeg,image/gif,image/png"

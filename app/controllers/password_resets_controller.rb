@@ -27,7 +27,7 @@ class PasswordResetsController < ApplicationController
       flash[:success] = t ".success"
       redirect_to @user
     else
-      flash[:danger] = t(".flash_update_fail")
+      flash[:danger] = t ".flash_update_fail"
       render :edit
     end
   end
