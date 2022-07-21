@@ -24,6 +24,7 @@ help:
 helpers:
   users:
     size: 50
+    small_size: 30
 
 views:
   users:
@@ -39,3 +40,6 @@ micropost:
   image_size: 5
   resize_to_limit: [500, 500]
   image_accept: "image/jpeg,image/gif,image/png"
+
+home:
+  link_rails: "https://rubyonrails.org/"
