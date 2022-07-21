@@ -78,6 +78,16 @@ vi:
     before_action:
       not_correct: "Người dùng không đúng"
       not_admin: "Bạn không phải là admin"
+    following:
+      following: "Following"
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      profile: "Xem trang cá nhân"
+      microposts: "Microposts: "
   shared:
     error_messages:
       the: "Biểu mẫu chứa "
@@ -88,6 +98,9 @@ vi:
     user_info:
       micropost: "micropost"
       view: "Xem hồ sơ của tôi"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login: "Đăng nhập"
@@ -154,3 +167,6 @@ mật khẩu của bạn sẽ vẫn như cũ."
             image:
               not_bigger: "phải nhỏ hơn 5MB"
               not_valid: "phải đúng định dạng ảnh"
+  relationships:
+    follow_fail: "Follow fail"
+    unfollow_fail: "Unfollow fail"
