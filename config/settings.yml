@@ -24,6 +24,7 @@ help:
 helpers:
   users:
     size: 50
+    small_size: 30
 
 views:
   users:

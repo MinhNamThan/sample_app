@@ -77,6 +77,16 @@ en:
     before_action:
       not_correct: "Not correct user"
       not_admin: "You don't have Authorization"
+    following:
+      following: "Following"
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      profile: "view my profile"
+      microposts: "Microposts: "
   shared:
     error_messages:
       the: "The form contains "
@@ -85,6 +95,9 @@ en:
     user_info:
       micropost: "micropost"
       view: "View my profile"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login: "Log in"
@@ -151,3 +164,6 @@ your password will stay as it is."
             image:
               not_bigger: "should be less than 5MB"
               not_valid: "must be a valid image format"
+  relationships:
+    follow_fail: "Follow fail"
+    unfollow_fail: "Unfollow fail"
