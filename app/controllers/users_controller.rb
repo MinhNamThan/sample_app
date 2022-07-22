@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @pagy, @microposts = pagy @user.microposts.newest
     return if @user
 
     flash[:warning] = t ".not_found"

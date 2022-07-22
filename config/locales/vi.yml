@@ -21,6 +21,7 @@ vi:
       tutorial: "Hướng dẫn sử dụng Ruby on Rails"
       home_sample: "Sample App."
       sign_up: "Đăng ký ngay!"
+      micropost_feed: "Micropost Feed"
   layouts:
     footer:
       tutorial: "Hướng dẫn sử dụng Ruby on Rails"
@@ -55,7 +56,8 @@ vi:
       danger: "Không thể tạo tài khoản"
       check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản"
     show:
-      not_found: "Không có ngừoi dùng khả dụng"
+      not_found_beforee: "Không có ngừoi dùng khả dụng"
+      micropost: "Micropost"
     index:
       title: "Danh sách người dùng"
       loggin_please: "Hãy đăng nhập"
@@ -79,6 +81,13 @@ vi:
   shared:
     error_messages:
       the: "Biểu mẫu chứa "
+    micropost_form:
+      compose: "Soạn micropost mới..."
+      post: "Post"
+      alert_bigger: "Maximum file size is 5MB. Please choose a smaller file"
+    user_info:
+      micropost: "micropost"
+      view: "Xem hồ sơ của tôi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -87,7 +96,7 @@ vi:
       remember: "Ghi nhớ"
       forgot: "Quên mật khẩu"
     create:
-      invalid: "Email/mật khẩu không hợp lệ"
+      danger: "Email/mật khẩu không hợp lệ"
       account_not: "Tài khoản chưa được kích hoạt. Truy cập email để kích hoạt"
   account_activations:
     edit:
@@ -124,3 +133,24 @@ mật khẩu của bạn sẽ vẫn như cũ."
       flash_update_fail: "Cập nhật không thành công"
     check_expiration:
       danger: "Đã hết hạn thay đổi mật khẩu"
+  microposts:
+    create:
+      success: "Tạo micropost thành công"
+      false_microposts: "Không thể tạo micropost"
+    destroy:
+      delete: "Đã xóa micropost"
+      false_delete: "Xóa thất bại"
+    correct_user:
+      not_found: "người dùng không khả dụng"
+    micropost:
+      you_sure: "Bạn có chắc không?"
+      delete: "xóa"
+      posted: "Đã đăng %{time} trước."
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              not_bigger: "phải nhỏ hơn 5MB"
+              not_valid: "phải đúng định dạng ảnh"

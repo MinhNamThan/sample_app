@@ -21,6 +21,7 @@ en:
       tutorial: "Ruby on Rails Tutorial"
       home_sample: "sample application."
       sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
   layouts:
     footer:
       tutorial: "Ruby on Rails Tutorial"
@@ -79,6 +80,11 @@ en:
   shared:
     error_messages:
       the: "The form contains "
+    micropost_form:
+      compose: "Compose new micropost..."
+    user_info:
+      micropost: "micropost"
+      view: "View my profile"
   sessions:
     new:
       login: "Log in"
@@ -124,3 +130,24 @@ your password will stay as it is."
       flash_update_fail: "Update false"
     check_expiration:
       danger: "Password reset has expired."
+  microposts:
+    create:
+      success: "Micropost created!"
+      false_microposts: "can not create micropost"
+    destroy:
+      delete: "Micropost deleted"
+      false_delete: "Micropost false"
+    correct_user:
+      not_found: "can not find user"
+    micropost:
+      you_sure: "Are you sure?"
+      delete: "delete"
+      posted: "Posted %{time} ago."
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              not_bigger: "should be less than 5MB"
+              not_valid: "must be a valid image format"
