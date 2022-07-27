@@ -21,7 +21,7 @@ class MicropostsController < ApplicationController
     else
       flash[:danger] = t ".false_delete"
     end
-    redirect_to request.referrer || root_url
+    redirect_to request.referer || root_url
   end
 
   private
